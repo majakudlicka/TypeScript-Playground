@@ -1,13 +1,8 @@
-
 //Type annotations
-function greeter1(person: string) {
-    return "Hello, " + person;
+function greeter(person: string) {
+  return 'Hello, ' + person;
 }
 
-let user = "Jane User";
+let user = 'Jane User';
 
-document.body.innerHTML = greeter1(user);
-
-
-
-
+document.body.innerHTML = greeter(user);

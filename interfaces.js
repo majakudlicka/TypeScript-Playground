@@ -1,13 +1,5 @@
-//Interfaces
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-function greeter(person: Person) {
+function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-
-let user = { firstName: "Jane", lastName: "User" };
-
+var user = { firstName: "Jane", lastName: "User" };
 document.body.innerHTML = greeter(user);
